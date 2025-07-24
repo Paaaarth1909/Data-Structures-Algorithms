@@ -1,0 +1,15 @@
+#Ignore build folders and debug artifacts
+build/
+*.o
+*.obj
+*.exe
+*.out
+*.log
+*.tmp
+*.dSYM/
+
+# CMake folders
+cmake-build-*/
+
+# VS Code settings (optional to ignore)
+.vscode/
