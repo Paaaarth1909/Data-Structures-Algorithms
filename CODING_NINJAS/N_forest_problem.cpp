@@ -13,7 +13,6 @@ Output:
 #include<iostream>
 using namespace std;
 
-// This program prints a square pattern of asterisks (*) with 4 rows and 4 columns.
 
 int main() {
     int n;
