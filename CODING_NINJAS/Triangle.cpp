@@ -28,3 +28,6 @@ void triangle(int n) {
     }
 
 }
+
+// Time Complexity: O(N^2) - Two nested loops, each running N times.
+// Space Complexity: O(1) - No additional space used apart from input and output.
