@@ -28,3 +28,6 @@ void seeding(int n) {
         cout << endl; // Move to the next line after printing stars in a row
     }
 }
+
+//Time Complexity: O(N^2)
+//Space Complexity: O(1)
