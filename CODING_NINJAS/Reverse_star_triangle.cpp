@@ -28,3 +28,5 @@ for (int i = 1; i <= n; i++) { // Loop for each row
         cout << endl; // Move to the next line after printing stars in a row
     }
 }
+//Time Complexity: O(N^2) - Two nested loops, each running N times.
+//Space Complexity: O(1) - No additional space used apart from input and output.
