@@ -14,3 +14,14 @@ C B
 C B A */
 #include <iostream>
 using namespace std;
+void alphaTriangle(int n) {
+    for(int i=0;i<n;i++){
+        for(char ch='E'-i;ch<='E';ch++){
+            cout<<ch<<" ";
+
+        }
+        cout<<endl;
+    }
+}
+//Time Complexity: O(N^2)
+//Space Complexity: O(1)s
