@@ -1,0 +1,37 @@
+/* Problem statement
+Ninja was very fond of patterns. For a given integer ‘N’, he wants to make the N-Star Rotated Triangle.
+
+Example:
+Input: ‘N’ = 3
+
+Output: 
+
+*
+**
+***
+**
+* */
+#include <iostream>
+using namespace std;
+int main() {
+    int n;
+    cout << "Enter the number of rows: ";
+    cin >> n;
+    nStarTriangle(n);
+    return 0;
+}
+
+void nStarTriangle(int n) {
+    for (int i=1 ; i<=2*n-1 ; i++){
+        int stars = i;
+        if ( i>n ) stars = 2*n -i;
+        for (int j=1 ; j<=stars;j++){
+            cout << "*";
+
+        }
+        cout << endl;
+    }
+}
+
+// Time Complexity: O(N^2) - Two nested loops, each running N times.
+// Space Complexity: O(1) - No additional space used apart from input and output.
