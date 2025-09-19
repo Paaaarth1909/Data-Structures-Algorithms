@@ -1,7 +1,7 @@
 //WAP to print 1 to N using recursion 
 import java.util.Scanner;
 
-public class PrintNumbers {
+public class print_1_to_N {
     static void printNumbers(int i, int n) {
         if (i > n) return;
         System.out.print(i + " ");
