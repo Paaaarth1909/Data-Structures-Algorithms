@@ -12,15 +12,21 @@ Output:
 A
 B B
 C C C */
-#include <iostream>
-using namespace std;
-void alphaRamp(int n) {
- for (int i = 1; i <= n; i++) { // Loop for each row
-        for (int j = 1; j <= i; j++) { // Loop for printing characters in each row
-            cout << char('A' + i - 1)<<" "; // Print character
+public class alpha_ramp {
+    static void alphaRamp(int n) {
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= i; j++) {
+                System.out.print((char)('A' + i - 1) + " ");
+            }
+            System.out.println();
         }
-        cout << endl; // Move to the next line after printing characters in a row
+    }
+
+    public static void main(String[] args) {
+        int n = 3;
+        alphaRamp(n);
     }
 }
+
 //Time Complexity: O(N^2) - The outer loop runs N times, and the inner loop runs i times, where i varies from 1 to N.
 //Space Complexity: O(1) - No additional space is used that grows with input size
