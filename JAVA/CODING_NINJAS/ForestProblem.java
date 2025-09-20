@@ -13,7 +13,7 @@ Output:
 * * *  */
 import java.util.Scanner;
 
-public class 2_forest_problem {
+public class ForestProblem {
     static void nForest(int n) {
         for (int i = 1; i <= n; i++) {
             for (int j = 1; j <= i; j++) {
