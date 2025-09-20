@@ -11,23 +11,25 @@ Output:
 * 
 * *
 * * *  */
-#include<iostream>
-using namespace std;
+import java.util.Scanner;
 
-void nForest(int n) {
-    for (int i = 1; i <= n; i++) { // Loop for each row
-        for (int j = 1; j <= i; j++) { // Loop for printing stars in each row
-            cout << "* "; // Print star
+public class 2_forest_problem {
+    static void nForest(int n) {
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= i; j++) {
+                System.out.print("* ");
+            }
+            System.out.println();
         }
-        cout << endl; // Move to the next line after printing stars in a row
     }
-}
 
-int main() {
-    int n;
-    cout << "Enter the number of rows: ";
-    cin >> n;
-    nForest(n);
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the number of rows: ");
+        int n = sc.nextInt();
+        nForest(n);
+        sc.close();
+    }
 }
 
 // Time Complexity: O(N^2) - We have two nested loops, each running N times.
