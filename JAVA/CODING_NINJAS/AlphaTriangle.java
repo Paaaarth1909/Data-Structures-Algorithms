@@ -12,16 +12,21 @@ Output:
 C
 C B 
 C B A */
-#include <iostream>
-using namespace std;
-void alphaTriangle(int n) {
-    for(int i=0;i<n;i++){
-        for(char ch='E'-i;ch<='E';ch++){
-            cout<<ch<<" ";
-
+public class AlphaTriangle {
+    static void alphaTriangle(int n) {
+        for (int i = 0; i < n; i++) {
+            for (char ch = (char)('A' + n - 1 - i); ch <= (char)('A' + n - 1); ch++) {
+                System.out.print(ch + " ");
+            }
+            System.out.println();
         }
-        cout<<endl;
+    }
+
+    public static void main(String[] args) {
+        int n = 3;
+        alphaTriangle(n);
     }
 }
+    
 //Time Complexity: O(N^2)
 //Space Complexity: O(1)s
