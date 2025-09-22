@@ -13,8 +13,8 @@ A B
 A */
 import java.util.Scanner;
 
-public class Main {
-    public static void nLetterTriangle(int n) {
+public class nLetterTriangle {
+    public nLetterTriangle(int n) {
         for (int i = n; i >= 1; i--) {
             for (int j = 1; j <= i; j++) {
                 System.out.print((char)('A' + j - 1) + " ");
@@ -27,7 +27,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter N: ");
         int n = sc.nextInt();
-        nLetterTriangle(n);
+        new nLetterTriangle(n);
         sc.close();
     }
 }
