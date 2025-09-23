@@ -28,9 +28,10 @@ public class Rotated_triangle {
     }
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        nStarTriangle(n);
+        try (Scanner sc = new Scanner(System.in)) {
+            int n = sc.nextInt();
+            nStarTriangle(n);
+        }
     }
 }
 
