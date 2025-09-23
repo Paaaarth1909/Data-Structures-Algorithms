@@ -33,6 +33,3 @@ public class alpha_hill {
         alphaHill(n);
     }
 }
-
-//Time Complexity: O(N^2)
-//Space Complexity: O(1)

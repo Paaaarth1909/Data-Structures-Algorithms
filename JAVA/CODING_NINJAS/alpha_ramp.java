@@ -27,6 +27,3 @@ public class alpha_ramp {
         alphaRamp(n);
     }
 }
-
-//Time Complexity: O(N^2) - The outer loop runs N times, and the inner loop runs i times, where i varies from 1 to N.
-//Space Complexity: O(1) - No additional space is used that grows with input size

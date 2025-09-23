@@ -30,6 +30,3 @@ public class StarPattern {
         getStarPattern(n);
     }
 }
-
-//Time Complexity: O(N^2)
-//Space Complexity: O(1)

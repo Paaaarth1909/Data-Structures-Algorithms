@@ -31,7 +31,3 @@ public class NumberPattern {
         getNumberPattern(n);
     }
 }
-
-    //TIME COMPLEXITY: O(N^2)
-    //SPACE COMPLEXITY: O(1)
-    

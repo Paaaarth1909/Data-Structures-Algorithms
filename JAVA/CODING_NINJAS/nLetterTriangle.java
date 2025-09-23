@@ -31,6 +31,3 @@ public class nLetterTriangle {
         sc.close();
     }
 }
-
-//Time Complexity: O(N^2)
-//Space Complexity: O(1)

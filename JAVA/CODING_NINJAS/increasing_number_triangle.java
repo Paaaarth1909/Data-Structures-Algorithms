@@ -27,6 +27,3 @@ public class increasing_number_triangle {
     }
 }
 
-
-    // Time Complexity: O(N^2)   
-    // Space Complexity: O(1)
