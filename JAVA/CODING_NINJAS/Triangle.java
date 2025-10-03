@@ -11,23 +11,26 @@ Output:
 1
 2 2 
 3 3 3 */
-#include <iostream>
-using namespace std;    
-int main() {
-    int n;
-    cout << "Enter the number of rows: ";
-    cin >> n;
-    triangle(n);
-}
-void triangle(int n) {
-	for (int i = 1; i <= n; i++) { // Loop for each row
-        for (int j = 1; j <= i; j++) { // Loop for printing numbers in each row
-            cout << i << " "; // Print number
+import java.util.Scanner;
+
+public class Triangle {
+    public static void triangle(int n) {
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= i; j++) {
+                System.out.print(i + " ");
+            }
+            System.out.println();
         }
-        cout << endl; // Move to the next line after printing numbers in a row
     }
 
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the number of rows: ");
+        int n = sc.nextInt();
+        triangle(n);
+    }
 }
+
 
 // Time Complexity: O(N^2) - Two nested loops, each running N times.
 // Space Complexity: O(1) - No additional space used apart from input and output.
