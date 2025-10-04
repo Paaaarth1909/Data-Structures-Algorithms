@@ -13,5 +13,4 @@ int main() {
     cin >> n;
     cout << "Factorial of " << n << " is: " << factorial(n) << endl;
     return 0;
-// Time Complexity: O(n)
-// Space Complexity : O(n)
+}

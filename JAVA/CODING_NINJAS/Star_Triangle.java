@@ -30,6 +30,3 @@ public class Star_Triangle {
     }
 }
 
-
-    // Time Complexity: O(N^2)
-    // Space Complexity: O(1)

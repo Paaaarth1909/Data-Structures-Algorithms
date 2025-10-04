@@ -16,6 +16,3 @@ public class Factorial_of_N_numbers {
     }
 }
 
-
-// Time Complexity: O(n)
-// Space Complexity : O(n)
